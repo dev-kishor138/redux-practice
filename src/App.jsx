@@ -1,3 +1,4 @@
+import Home from "./page/Home"
 
 
 function App() {
@@ -5,8 +6,11 @@ function App() {
 
   return (
     <>
-      <h2>Hello World</h2>
-      <button className="bg-red-500 px-5 y-3 text-white rounded-md">Click Me</button>
+      <div className="text-center flex justify-center items-center min-h-screen">
+        <div>
+          <Home/>
+        </div>
+      </div>
     </>
   )
 }
